@@ -8,7 +8,7 @@ class Book{
     
     private static ArrayList<Book> bookCollection = new ArrayList<Book>();
     
-    public Book(String Title , String AuthorName , String ISBN){
+    public Book(String Title , String AuthorName , String ISBN){  //constructer of the class Book
         this.Title = Title;
         this.AuthorName = AuthorName;
         this.ISBN = ISBN;
